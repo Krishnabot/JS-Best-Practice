@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.to-do-wrap {
+  margin: 10rem auto 0 auto;
+  width: 60%;
+  box-shadow: 0 0 28px -3px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 0 0 28px -3px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0 0 28px -3px rgba(0, 0, 0, 0.75);
+}
+
+.title-wrap {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+  text-align: center;
+}
+
+.input {
+  display: grid;
+  grid-template-columns: 11fr 1fr;
+  background-color: white;
+  width: 70%;
+  margin: auto;
+}
+
+input {
+  font-style: italic;
+  height: 40px;
+  border-style: none;
+  margin-left: 1rem;
+  padding-left: 1rem;
+}
+
+.active {
+  text-decoration: line-through;
+}
+
+.input-task {
+  border: 1px solid #dad7d0;
+  border-radius: 5px;
+}
+
+.add-task {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fa-circle-plus {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+}
+
+.to-do-list {
+  margin: auto;
+  width: 50%;
+}
+
+.dynamic-Elements {
+  display: flex;
+  gap: 50px;
+  padding-top: 10px;
+}
+
+.dynamic-Elements > p {
+  padding-top: 10px;
+}
+
+.clr-btn > button {
+  border-style: solid none;
+  cursor: pointer;
+  width: 100%;
+  text-align: center;
+  border-radius: 10px;
+  border-bottom: 0;
+  height: 4rem;
+  font-size: 20px;
+  border-width: 1px;
+  background-color: #0429fc;
+  box-shadow: inset 0 0 0 0;
+  transition: ease-out 0.3s;
+  color: rgb(255, 255, 255);
+}
+
+.clr-btn > button:hover {
+  box-shadow: inset 1400px 0 0 0 #f00;
+  border: 1px solid #fff;
+  color: #fff;
+}
+
+.task-layout {
+  border: none;
+  font-size: 1.2rem;
+}
+
+.remove-task {
+  width: 80px;
+  height: 40px;
+}
