@@ -27,7 +27,7 @@
 
 ## Live Demo 
 
-[Live Demo Link](https://krishnabot.github.io/To-Do-List/)
+[Live Demo Link](https://krishnabot.github.io/To-Do-List/dist/)
 
 ## Getting Started 
 
